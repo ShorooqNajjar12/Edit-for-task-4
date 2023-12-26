@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Today Tasks</title>
+</head>
+<body>
+        <div class="email-container">
+            <div class="sidebar">
+                <div class="sidebar-item">
+                    <div class="sidebar-icon">📥</div>
+                    Inbox
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-icon">📅</div>
+                    Today
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-icon">📆</div>
+                    Upcoming
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-icon">⚠️</div>
+                    Important
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-icon">👥</div>
+                    Meetings
+                </div>
+                <div class="sidebar--item">
+                    <div class="sidebar-icon">🗑️</div>
+                    Trash
+                </div>
+                <div class="sidebar-sub-item">
+                    <div class="sidebar-sub-icon">👨‍👩‍👧</div>
+                    Family
+                </div>
+                <div class="sidebar-sub-item">
+                    <div class="sidebar-sub-icon">🏖️</div>
+                    Vacation
+                </div>
+                <div class="sidebar-sub-item">
+                    <div class="sidebar-sub-icon">🎉</div>
+                    Festival
+                </div>
+                <div class="sidebar-sub-item">
+                    <div class="sidebar-sub-icon">🎤</div>
+                    Concerts
+                </div>
+            </div>
+
+    <div class="container">
+        <div class="tasks">
+            <div class="header">
+                <h1>Today Tasks</h1>
+            </div>
+            <div class="task-filters">
+                <div class="task-filter">All</div>
+                <div class="task-filter">Important</div>
+                <div class="task-filter">Notes</div>
+                <div class="task-filter">Links</div>
+            </div>
+            <hr class="horizontal-line">
+            <div class="task">
+                <input type="checkbox" id="task1">
+                <label for="task1">Dashboard Design Implementation</label>
+                <div class="status-box">
+
+                    <select class="status-select">
+                        <option value="Click here" selected>Click here</option>
+                        <option value="approved" >Approved</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="in-review">In Review</option>
+                    </select>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task2">
+                <label for="task2">Create a User Flow</label>
+                <div class="status-box">
+                    <select class="status-select">
+                        <option value="Click here" selected>Click here</option>
+                        <option value="approved">Approved</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="in-review">In Review</option>
+                    </select>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task3">
+                <label for="task3">Application Implementation</label>
+                <div class="status-box">
+                    <select class="status-select">
+                        <option value="Click here" selected>Click here</option>
+                        <option value="approved" >Approved</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="in-review">In Review</option>
+                    </select>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task4">
+                <label for="task4">Create a Dashboard Design</label>
+                <div class="status-box">
+                    <select class="status-select">
+                        <option value="Click here" selected>Click here</option>
+                        <option value="approved" >Approved</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="in-review">In Review</option>
+                    </select>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task5">
+                <label for="task5">Create a Web Application Design</label>
+                <div class="status-box">
+                    <select class="status-select">
+                        <option value="Click here" selected>Click here</option>
+                        <option value="approved">Approved</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="in-review">In Review</option>
+                    </select>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task6">
+                <label for="task6">Interactive Design</label>
+                <div class="status-box">
+                    <select class="status-select">
+                        <option value="Click here" selected>Click here</option>
+                        <option value="approved">Approved</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="in-review">In Review</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="upcoming-tasks">
+
+                <h2>Upcoming Tasks</h2>
+                
+                <div class="task">
+                    <input type="checkbox" id="task7">
+                    <label for="task7">Dashboard Design Implementation</label>
+                    <div class="status--box">
+                        <span class="status">Waiting</span>
+                    </div>
+                </div>
+                <div class="task">
+                    <input type="checkbox" id="task8">
+                    <label for="task8">Create a User Flow</label>
+                    <div class="status--box">
+                        <span class="status">Waiting</span>
+                    </div>
+                </div>
+                <div class="task">
+                    <input type="checkbox" id="task9">
+                    <label for="task9">Application Implementation</label>
+                    <div class="status--box">
+                        <span class="status">Waiting</span>
+                    </div>
+                </div>
+                <div class="task">
+                    <input type="checkbox" id="task10">
+                    <label for="task10">Create a Dashboard Design</label>
+                    <div class="status--box">
+                        <span class="status">Waiting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="schedule-section">
+            <div class="vertical-line"></div>
+           <div class="Schedule"> <h2> Schedule</h2> </div> 
+            <div class="schedule-cards">
+                <div class="schedule-card">
+                    <h3>Product Review</h3>
+                    <p> Time: 08:00 - 09:00 AM </p>
+                    <div class="person-images">
+                        <img class="person-image" src="img1.jpg" alt="Person 1">
+                        <img class="person-image" src="img2.jpg" alt="Person 2">
+                        <img class="person-image" src="img3.jpg" alt="Person 3">
+                        <img class="person-image" src="img4.jpg" alt="Person 4">
+                    </div>
+                </div>
+
+                <div class="schedule-card">
+                    <h3>Design Meeting</h3>
+                    <p> Time: 10:00 - 11:00 AM </p>
+                    <img class="person-image" src="img2.jpg" alt="Person 2">
+                    <img class="person-image" src="img1.jpg" alt="Person 1">
+                        <img class="person-image" src="img6.jpg" alt="Person 6">
+                </div>
+                <div class="schedule-card">
+                    <h3>Team Meeting</h3>
+                    <p>Time: 01:00 - 02:00 PM</p>
+                    <img class="person-image" src="img3.jpg" alt="Person 3">
+                    <img class="person-image" src="img7.jpg" alt="Person 7">
+                        <img class="person-image" src="img8.jpg" alt="Person 8">
+                        <img class="person-image" src="img4.jpg" alt="Person 4">
+                </div>
+                <div class="schedule-card">
+                    <h3>Release Event</h3>
+                    <p>Time: 03:00 - 04:00 PM</p>
+                    <img class="person-image" src="img4.jpg" alt="Person 4">
+                    <img class="person-image" src="img3.jpg" alt="Person 3">
+                        <img class="person-image" src="img9.jpg" alt="Person 9">
+                        <img class="person-image" src="img7.jpg" alt="Person 7">
+
+
+                </div>
+                <div class="schedule-card">
+                    <h3>Product Review</h3>
+                    <p> Time: 12:00 - 01:00 AM </p>
+                    <img class="person-image" src="img5.jpg" alt="Person 5">
+                    <img class="person-image" src="img3.jpg" alt="Person 3">
+                    <img class="person-image" src="img7.jpg" alt="Person 7">
+                </div>
+                <div class="schedule-card">
+                    <h3>Design Meeting</h3>
+                    <p> Time: 10:00 - 11:00 AM </p>
+                    <img class="person-image" src="img2.jpg" alt="Person 2">
+                    <img class="person-image" src="img1.jpg" alt="Person 1">
+                        <img class="person-image" src="img6.jpg" alt="Person 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
